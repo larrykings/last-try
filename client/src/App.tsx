@@ -58,7 +58,7 @@ function App() {
 
             if (profileObj) {
                 const response = await fetch(
-                    "https://m-nyumba.onrender.com/api/v1/users",
+                    ""http://localhost:8080/api/v1/users",
                     {
                         method: "POST",
                         headers: { "Content-Type": "application/json" },
